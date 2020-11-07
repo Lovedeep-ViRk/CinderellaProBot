@@ -49,16 +49,16 @@
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
-         "value": "1118936839"
+         "value": "1324185738"
       },
       "OWNER_NAME": {
          "description": "Your Name",
-         "value": "✰Sᴀͥʀᴀͣᴛͫʜ™️✰"
+         "value": "✰Deep ViRk✰"
       },
       "DEV_USERS": {
          "description": "ID of users who are Dev (can use /py etc.)",
          "required": false,
-         "value": "1118936839"
+         "value": "1324185738"
       },
       "CASH_API_KEY": {
          "description": "Required for currency converter",
@@ -75,7 +75,7 @@
       },
        "START_IMG": {
          "description": "Image shows when hit /start",
-         "value": "https://telegra.ph/file/511ad504656e712b88235.jpg"    
+         "value": "https://telegra.ph/file/880140f86c7f38d13ff4e.jpg"    
       },
       "API_OPENWEATHER": {
          "description": "Required for weather information",
@@ -98,12 +98,12 @@
       "SUDO_USERS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "1118936839"
+         "value": "1324185738"
       },
       "SUPPORT_USERS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "1118936839"
+         "value": "1324185738"
       },
      
       "TOKEN": {
@@ -124,7 +124,7 @@
       "WHITELIST_USERS": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "1118936839"
+         "value": "1324185738"
       },
       "WALL_API":{
          "description": "Enter wall api",
@@ -142,11 +142,11 @@
       "weeb",
       "group",
       "manager",
-      "cinderella"
+      "virk"
       
    ],
-   "name": "Cinderella",
-   "repository": "https://github.com/Sur-vivor/CiderellaProBot",
-   "success_url": "https://telegram.dog/CinderellaProBot",
-   "logo": "https://telegra.ph/file/511ad504656e712b88235.jpg"
+   "name": "GroupManager",
+   "repository": "https://github.com/Lovedeep-ViRk/GroupManager",
+   "success_url": "https://telegram.dog/Lovedeep_ViRk",
+   "logo": "https://telegra.ph/file/c9ed94d98e3287cca8c4d.jpg"
 }
