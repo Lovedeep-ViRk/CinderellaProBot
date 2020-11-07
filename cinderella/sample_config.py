@@ -3,7 +3,7 @@ import json
 import os
 
 def get_user_list(config, key):
-    with open('{}/cinderella/{}'.format(os.getcwd(), config), 'r') as json_file:
+    with open('{}/GroupManager/{}'.format(os.getcwd(), config), 'r') as json_file:
         return json.load(json_file)[key]
 
 
@@ -39,7 +39,7 @@ class Config(object):
     STRICT_GBAN = False
     STRICT_GMUTE = False
     WORKERS = 8  # Number of subthreads to use. This is the recommended amount - see for yourself what works best!
-    BAN_STICKER = 'CAACAgUAAxkBAAIHsl5nbqXdDTmpG2HFDNhnwvE5kFbWAAI9AQAC3pTNLzeTCUmnhTneGAQ'  # banhammer marie sticker
+    BAN_STICKER = 'https://telegra.ph/file/c9ed94d98e3287cca8c4d.jpg'  # banhammer marie sticker
     ALLOW_EXCL = True  # Allow ! commands as well as /
     CASH_API_KEY = None # Get one from https://www.alphavantage.co/support/#api-key
     TIME_API_KEY = None # Get one from https://timezonedb.com/register

